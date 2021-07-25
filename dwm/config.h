@@ -99,7 +99,7 @@ static Key keys[] = {
 	{ Mod4Mask|ShiftMask,           XK_Down,   spawn,          SHCMD("brightnessctl s 1%-") },
 	{ Mod4Mask|ShiftMask,           XK_Right,  spawn,          SHCMD("pamixer -i 1") },
 	{ Mod4Mask|ShiftMask,           XK_Left,   spawn,          SHCMD("pamixer -d 1") },
-	{ Mod4Mask|ShiftMask,           XK_l,      spawn,          SHCMD("i3lock -i myfiles/DS/dwm/Pictures/wallpapers1/ --slideshow-interval 90s --slideshow-random-selection -L -k --greeter-text=\"Where there is a will, there is a way.\"") },
+	{ Mod4Mask|ShiftMask,           XK_l,      spawn,          SHCMD("i3lock -i ~/DS/dwm/Pictures/wallpapers1/ --slideshow-interval 90s --slideshow-random-selection -L -k --greeter-text=\"Where there is a will, there is a way.\"") },
 	{ MODKEY,                       XK_b,      togglebar,      {0} },
 	{ Mod4Mask,                     XK_j,      rotatestack,    {.i = +1 } },
 	{ Mod4Mask,                     XK_k,      rotatestack,    {.i = -1 } },
